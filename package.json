@@ -1,0 +1,32 @@
+{
+  "name": "repoclone",
+  "version": "1.0.0",
+  "description": "RepoClone - Root-Level Intelligence System",
+  "main": "root-intelligence-enforcer.js",
+  "scripts": {
+    "start": "node root-intelligence-enforcer.js",
+    "validate": "node root-intelligence-enforcer.js",
+    "enforce": "node root-intelligence-enforcer.js",
+    "status": "node root-intelligence-enforcer.js status",
+    "dashboard": "node root-intelligence-dashboard.js",
+    "visual": "node visual-intelligence-dashboard.js",
+    "comprehensive": "node comprehensive-intelligence-dashboard.js",
+    "web": "node dashboard-server.js",
+    "setup": "node setup-dashboard.js"
+  },
+  "keywords": [
+    "intelligence",
+    "self-aware",
+    "template",
+    "deployment"
+  ],
+  "author": "RepoClone Intelligence",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^19.0.13",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.6.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.11.0"
+  }
+}

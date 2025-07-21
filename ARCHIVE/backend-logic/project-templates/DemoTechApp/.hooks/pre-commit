@@ -1,0 +1,47 @@
+#!/bin/bash
+
+echo "🔍 DemoTechApp: Pre-commit Structure Validation"
+echo "================================================"
+
+# Check for backend logic in project root
+echo "📋 Checking for backend logic in project root..."
+if find . -name "*.ts" -o -name "*.js" | grep -q "ai-systems\|core-systems\|advanced-features"; then
+    echo "❌ ERROR: Backend logic found in project root!"
+    echo "   Backend logic should be referenced, not copied."
+    exit 1
+fi
+
+# Check for root intelligence files
+echo "📋 Checking for root intelligence files..."
+if [ -f "README.md" ] && grep -q "RepoClone Intelligence" README.md; then
+    echo "❌ ERROR: Root intelligence files found in project!"
+    echo "   Projects should not contain root intelligence files."
+    exit 1
+fi
+
+# Check for backend connector
+echo "📋 Checking for backend connector..."
+if [ ! -f "backend-connector.ts" ]; then
+    echo "❌ ERROR: Missing backend-connector.ts!"
+    echo "   Projects must have a backend connector."
+    exit 1
+fi
+
+# Check project schema
+echo "📋 Checking project schema..."
+if [ ! -f "PROJECT_SCHEMA.md" ]; then
+    echo "❌ ERROR: Missing PROJECT_SCHEMA.md!"
+    echo "   Projects must have a project schema."
+    exit 1
+fi
+
+# Check project structure rules
+echo "📋 Checking project structure rules..."
+if [ ! -f "PROJECT_STRUCTURE_RULES.md" ]; then
+    echo "❌ ERROR: Missing PROJECT_STRUCTURE_RULES.md!"
+    echo "   Projects must have structure rules."
+    exit 1
+fi
+
+echo "✅ DemoTechApp: Structure validation passed!"
+echo "🎯 Project follows RepoClone template schema" 

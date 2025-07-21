@@ -1,0 +1,1960 @@
+{
+  "violations": [],
+  "protectionChecks": [
+    {
+      "timestamp": "2025-07-20T22:39:27.947Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:39:57.947Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:40:27.949Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:40:57.950Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:41:27.952Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:41:57.952Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:42:27.953Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:42:57.955Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:43:27.955Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:43:57.943Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:44:27.940Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:44:57.940Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:45:27.942Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:45:57.942Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:46:27.943Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:46:57.944Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:47:27.948Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:47:57.946Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:48:27.947Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:48:57.948Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:49:27.948Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:49:57.951Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:50:27.952Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:50:57.953Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:51:27.953Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:51:57.954Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:52:27.956Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:52:57.957Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:53:27.957Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:53:57.957Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:54:27.958Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:54:57.959Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:55:27.960Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:55:57.960Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:56:27.963Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:56:57.963Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:57:27.964Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:57:57.963Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:58:27.964Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:58:57.965Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:59:27.967Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T22:59:57.971Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:00:27.970Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:00:57.971Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:01:27.974Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:01:57.974Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:02:27.974Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:02:57.974Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:03:27.975Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:03:57.977Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:04:27.979Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:04:57.986Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:05:27.995Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:05:57.996Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:06:27.997Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:06:57.996Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:07:27.998Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:07:57.998Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:08:28.001Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:08:58.001Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:09:28.002Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:09:58.003Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:10:28.004Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:10:58.005Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:11:28.005Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:11:58.007Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:12:28.008Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:12:58.008Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:13:28.010Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:13:58.010Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:14:28.011Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:14:58.013Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:15:28.013Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:15:58.013Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:16:28.015Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:16:58.015Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:17:28.019Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:17:58.020Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:18:28.019Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:18:58.021Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:19:28.021Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:19:58.021Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:20:28.023Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:20:58.026Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:21:28.028Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:21:58.029Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:22:28.036Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:22:58.031Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:23:28.032Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:23:58.003Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:24:27.998Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:24:57.999Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:25:28.002Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:25:58.002Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:26:28.000Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:26:58.001Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:27:28.001Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:27:58.001Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:28:28.002Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:28:58.005Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:29:28.006Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:29:58.006Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:30:28.005Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:30:58.010Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:31:28.011Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:31:58.008Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:32:28.009Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:32:58.009Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:33:28.009Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:33:58.013Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:34:28.016Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:34:58.014Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:35:28.015Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:35:58.019Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:36:28.016Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:36:58.018Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:37:28.019Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:37:58.022Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:38:28.022Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:38:58.022Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:39:28.022Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:39:58.023Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:40:28.022Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:40:58.024Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:41:28.023Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:41:58.023Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:42:28.025Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:42:58.026Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:43:28.028Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:43:58.029Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:44:28.029Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:44:58.032Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:45:28.034Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:45:58.038Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:46:28.038Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:46:58.038Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:47:28.039Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:47:58.041Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:48:28.043Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:48:58.045Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:49:28.062Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:49:58.079Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:50:28.083Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:50:58.086Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:51:28.086Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:51:58.087Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:52:28.088Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:52:58.088Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:53:28.090Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:53:58.090Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:54:28.091Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:54:58.092Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:55:28.093Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:55:58.094Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:56:28.097Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:56:58.096Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:57:28.096Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:57:58.100Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:58:28.099Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:58:58.099Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:59:28.100Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-20T23:59:58.102Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:00:28.103Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:00:58.104Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:01:28.106Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:01:58.107Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:02:28.106Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:02:58.108Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:03:28.109Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:03:58.110Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:04:28.123Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:04:58.141Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:05:28.147Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:05:58.148Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:06:28.148Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:06:58.150Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:07:28.151Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:07:58.151Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:08:28.154Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:08:58.154Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:09:28.155Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:09:58.157Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:10:28.158Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:10:58.160Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:11:28.161Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:11:58.162Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:12:28.164Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:12:58.165Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:13:28.166Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:13:58.167Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:14:28.170Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:14:58.170Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:15:28.171Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:15:58.172Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:16:28.173Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:16:58.174Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:17:28.175Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:17:58.177Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:18:28.179Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:18:58.182Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:19:28.183Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:19:58.182Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:20:28.183Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:20:58.184Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:21:28.187Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:21:58.187Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:22:28.187Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:22:58.189Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:23:28.190Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:23:58.193Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:24:28.192Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:24:58.193Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:25:28.194Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:25:58.199Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:26:28.188Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:26:58.185Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:27:28.186Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:27:58.186Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:28:28.187Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:28:58.190Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:29:28.192Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:29:58.192Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:30:28.193Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:30:58.194Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:31:28.195Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:31:58.197Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:32:28.197Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:32:58.198Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:33:28.200Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:33:58.201Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:34:28.205Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:34:58.203Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:35:28.205Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:35:58.209Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:36:28.208Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:36:58.207Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:37:28.208Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:37:58.209Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:38:28.209Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:38:58.211Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:39:28.211Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:39:58.212Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:40:28.214Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:40:58.250Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:41:28.240Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:41:58.241Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:42:28.243Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:42:58.247Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:43:28.245Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:43:58.246Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:44:28.248Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:44:58.250Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:45:28.249Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:45:58.250Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:46:28.251Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:46:58.253Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:47:28.253Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:47:58.255Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:48:28.254Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:48:58.251Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:49:28.252Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:49:58.254Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:50:28.254Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:50:58.256Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:51:28.259Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:51:58.257Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:52:28.258Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:52:58.259Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:53:28.261Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:53:58.262Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:54:28.265Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:54:58.263Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:55:28.264Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:55:58.264Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:56:28.267Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:56:58.267Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:57:28.268Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:57:58.268Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:58:28.269Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:58:58.270Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:59:28.271Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T00:59:58.272Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:00:28.274Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:00:58.274Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:01:28.277Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:01:58.277Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:02:28.278Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:02:58.279Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:03:28.280Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:03:58.282Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:04:28.281Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:04:58.281Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:05:28.282Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:05:58.283Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:06:28.284Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:06:58.285Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:07:28.286Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:07:58.288Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:08:28.290Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:08:58.309Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:09:28.324Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:09:58.327Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:10:28.326Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:10:58.327Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:11:28.329Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:11:58.329Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:12:28.331Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:12:58.334Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:13:28.336Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:13:58.336Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:14:28.337Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:14:58.338Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:15:28.338Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:15:58.339Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:16:28.343Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:16:58.342Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:17:28.344Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:17:58.345Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:18:28.346Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:18:58.347Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:19:28.348Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:19:58.351Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:20:28.352Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:20:58.353Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:21:28.354Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:21:58.356Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:22:28.357Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:22:58.357Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:23:28.359Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:23:58.360Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:24:28.363Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:24:58.363Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:25:28.367Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:25:58.365Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:26:28.366Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:26:58.367Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:27:28.368Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:27:58.369Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:28:28.370Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:28:58.371Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:29:28.373Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:29:58.372Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:30:28.386Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:30:58.375Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:31:28.376Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:31:58.377Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:32:28.378Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:32:58.371Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:33:28.371Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:33:58.371Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:34:28.372Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:34:58.374Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:35:28.373Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:35:58.374Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:36:28.375Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:36:58.376Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:37:28.378Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:37:58.380Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:38:28.380Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:38:58.383Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:39:28.383Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:39:58.383Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:40:28.383Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:40:58.385Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:41:28.386Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:41:58.387Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:42:28.389Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:42:58.390Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:43:28.393Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:43:58.392Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:44:28.396Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:44:58.395Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:45:28.396Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:45:58.397Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:46:28.397Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:46:58.399Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:47:28.403Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:47:58.401Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:48:28.403Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:48:58.403Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:49:28.405Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:49:58.407Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:50:28.409Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:50:58.408Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:51:28.411Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:51:58.411Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:52:28.413Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:52:58.357Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:53:28.358Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:53:58.359Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    },
+    {
+      "timestamp": "2025-07-21T01:54:28.360Z",
+      "type": "intelligence_violation",
+      "message": "Intelligence system compliance check failed, action:auto_fix_attempted"
+    }
+  ]
+}

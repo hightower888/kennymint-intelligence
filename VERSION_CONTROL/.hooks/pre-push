@@ -1,0 +1,52 @@
+#!/bin/bash
+
+echo "🚀 RepoClone Intelligence: Pre-push Validation"
+echo "==============================================="
+
+# RepoClone Intelligence - Pre-push Validation
+# This hook ensures all rules are followed before pushing
+
+VIOLATIONS=0
+
+# Check for uncommitted changes
+UNCOMMITTED=$(git status --porcelain)
+if [ ! -z "$UNCOMMITTED" ]; then
+    echo "❌ VIOLATION: Uncommitted changes detected:"
+    echo "$UNCOMMITTED"
+    echo "💡 Please commit all changes before pushing"
+    VIOLATIONS=$((VIOLATIONS + 1))
+fi
+
+# Validate structure one more time
+echo "📋 Final structure validation..."
+.hooks/pre-commit
+if [ $? -ne 0 ]; then
+    VIOLATIONS=$((VIOLATIONS + 1))
+fi
+
+# Check for template completeness
+echo "📋 Final template validation..."
+.hooks/post-commit
+if [ $? -ne 0 ]; then
+    VIOLATIONS=$((VIOLATIONS + 1))
+fi
+
+# Validate intelligence system
+echo "🧠 Validating intelligence system..."
+INTELLIGENCE_FILES=("README.md" "INTELLIGENCE.md" "STRUCTURE_RULES.md")
+for file in "${INTELLIGENCE_FILES[@]}"; do
+    if [ ! -f "$file" ]; then
+        echo "❌ VIOLATION: Missing intelligence file: $file"
+        VIOLATIONS=$((VIOLATIONS + 1))
+    fi
+done
+
+if [ $VIOLATIONS -gt 0 ]; then
+    echo ""
+    echo "🚨 RepoClone Intelligence: $VIOLATIONS violations detected!"
+    echo "💡 Fix violations before pushing to remote"
+    exit 1
+else
+    echo "✅ RepoClone Intelligence: All validations passed!"
+    echo "🚀 Ready to push to remote repository"
+fi 

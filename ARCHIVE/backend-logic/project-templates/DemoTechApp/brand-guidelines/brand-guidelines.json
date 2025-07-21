@@ -1,0 +1,54 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2024-01-16T20:00:00.000Z",
+  "projectContext": {
+    "name": "DemoTechApp",
+    "industry": "technology",
+    "targetAudience": "business professionals",
+    "purpose": "productivity SaaS platform",
+    "brandMaturity": "emerging"
+  },
+  "brandPersonality": {
+    "tone": "innovative",
+    "style": "modern",
+    "targetAudience": "business professionals",
+    "industry": "technology",
+    "brandValues": ["Innovation", "Efficiency", "Reliability"],
+    "communicationStyle": "Professional yet approachable, focusing on productivity benefits"
+  },
+  "guidelines": [
+    {
+      "id": "color-primary",
+      "category": "colors",
+      "rule": "Primary color palette",
+      "value": {
+        "primary": "#007bff",
+        "secondary": ["#6c757d", "#28a745"]
+      },
+      "confidence": 0.8,
+      "isLocked": false,
+      "source": "inferred",
+      "context": "Technology industry standard with professional blue"
+    },
+    {
+      "id": "typography-primary",
+      "category": "typography", 
+      "rule": "Primary font family",
+      "value": {
+        "primary": "Inter",
+        "fallback": ["Arial", "sans-serif"]
+      },
+      "confidence": 0.7,
+      "isLocked": false,
+      "source": "inferred", 
+      "context": "Modern, readable font suitable for business professionals"
+    }
+  ],
+  "lockedRules": [],
+  "learningHistory": {},
+  "stats": {
+    "totalGuidelines": 2,
+    "lockedGuidelines": 0,
+    "pendingChanges": 0
+  }
+} 

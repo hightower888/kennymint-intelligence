@@ -1,0 +1,19 @@
+{
+  "name": "technology-vue-template",
+  "version": "1.0.0",
+  "description": "technology vue template with backend logic integration",
+  "scripts": {
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "start": "react-scripts start",
+    "lint": "eslint src"
+  },
+  "dependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0"
+  }
+}

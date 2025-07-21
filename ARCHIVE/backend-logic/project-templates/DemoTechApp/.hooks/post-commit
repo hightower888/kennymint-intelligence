@@ -1,0 +1,50 @@
+#!/bin/bash
+
+echo "🔍 DemoTechApp: Post-commit Template Validation"
+echo "================================================"
+
+# Check template completeness
+echo "📋 Checking template completeness..."
+
+# Required directories
+required_dirs=("components" "pages" "templates" "assets" "config" "data-stores" "learning-data" "workflows")
+
+for dir in "${required_dirs[@]}"; do
+    if [ ! -d "$dir" ]; then
+        echo "⚠️  WARNING: Missing directory: $dir"
+    else
+        echo "✅ Found directory: $dir"
+    fi
+done
+
+# Required files
+required_files=("package.json" "README.md" "backend-connector.ts" "PROJECT_SCHEMA.md" "PROJECT_STRUCTURE_RULES.md")
+
+for file in "${required_files[@]}"; do
+    if [ ! -f "$file" ]; then
+        echo "❌ ERROR: Missing required file: $file"
+        exit 1
+    else
+        echo "✅ Found file: $file"
+    fi
+done
+
+# Check backend logic references
+echo "📋 Checking backend logic references..."
+if grep -q "from '../backend-logic/" backend-connector.ts; then
+    echo "✅ Backend logic properly referenced"
+else
+    echo "❌ ERROR: Backend logic not properly referenced!"
+    exit 1
+fi
+
+# Check for forbidden patterns
+echo "📋 Checking for forbidden patterns..."
+if find . -name "*.ts" -o -name "*.js" | xargs grep -l "ai-systems\|core-systems\|advanced-features" 2>/dev/null; then
+    echo "❌ ERROR: Backend logic patterns found in project files!"
+    echo "   Backend logic should be referenced, not copied."
+    exit 1
+fi
+
+echo "✅ DemoTechApp: Template validation passed!"
+echo "🎯 Project template is complete and follows schema" 

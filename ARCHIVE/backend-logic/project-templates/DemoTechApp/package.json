@@ -1,0 +1,29 @@
+{
+  "name": "demo-tech-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Technology company dashboard - Requires backend engine",
+  "main": "CANNOT_RUN_DIRECTLY.js",
+  "scripts": {
+    "start": "node CANNOT_RUN_DIRECTLY.js",
+    "dev": "node CANNOT_RUN_DIRECTLY.js",
+    "build": "node CANNOT_RUN_DIRECTLY.js",
+    "test": "echo 'Tests must be run through backend engine'",
+    "_internal:start": "echo 'Starting with backend context...' && node src/index.js",
+    "_internal:dev": "echo 'Development mode with backend...' && nodemon src/index.js",
+    "_internal:build": "echo 'Building with backend optimization...' && webpack"
+  },
+  "backendRequired": true,
+  "backendVersion": "1.0.0",
+  "projectType": "frontend",
+  "dependencies": {
+    "@backend/core": "file:../../core",
+    "@backend/assets": "file:../../smart-asset-integration",
+    "@backend/brand": "file:../../brand-guidelines"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "engineStrict": true,
+  "_comment": "This project MUST be run through the backend engine using 'npm run project:DemoTechApp' from root"
+} 

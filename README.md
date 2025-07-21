@@ -1,92 +1,120 @@
-# RepoClone - Root-Level Intelligence System
+# RepoClone Intelligence System
 
-## What This Is
+## 🧠 Overview
+RepoClone is a comprehensive intelligence system that integrates Firebase, Google Cloud Storage (GCS), and GitHub to provide a complete project management and deployment solution.
 
-RepoClone is a **self-aware intelligence system** that maintains and enforces clean project structure. It's designed to:
+## 🚀 Project Details
+- **Project Name**: repoclone
+- **Project ID**: dan-gpt-460014
+- **Project Number**: 130600555571
 
-- **Maintain self-awareness** - Knows what it is and what it's supposed to do
-- **Enforce structure rules** - Keeps backend logic separate from frontend projects
-- **Validate organization** - Ensures proper file and directory structure
-- **Learn from patterns** - Understands how projects should be organized
+## 🔧 Technology Stack
+- **Firebase**: Firestore database, Storage, Hosting
+- **Google Cloud Storage**: File storage and backups
+- **GitHub**: Version control and issue tracking
+- **Node.js**: Backend server and API
+- **Express**: Web server framework
 
-## How It Works
+## 📊 Dashboard Features
+- Real-time activity monitoring
+- System metrics tracking
+- GitHub repository health
+- GCS storage management
+- Firebase integration status
 
-The system operates at the **root level** and:
+## 🛠️ Setup Instructions
 
-1. **Checks self-awareness** - Validates its identity and purpose
-2. **Validates structure** - Ensures backend logic is in the right place
-3. **Enforces rules** - Prevents mixing of frontend and backend code
-4. **Monitors health** - Tracks system status and violations
+### Prerequisites
+- Node.js (v14 or higher)
+- Firebase CLI
+- GitHub account with repository access
 
-## Quick Start
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/danielyoung/RepoClone.git
+   cd RepoClone
+   ```
 
-```bash
-# Install dependencies
-npm install
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-# Run root intelligence
-npm start
+3. Configure environment:
+   - Update `.env` file with your GitHub token
+   - Ensure Firebase project is properly configured
 
-# Validate structure
-npm run validate
+4. Start the dashboard:
+   ```bash
+   npm run web
+   ```
 
-# Check system status
-npm run status
-```
+### Firebase Setup
+1. Login to Firebase:
+   ```bash
+   firebase login
+   ```
 
-## Project Structure
+2. Initialize Firebase:
+   ```bash
+   firebase init
+   ```
+   - Select Firestore, Storage, and Hosting
+   - Use project ID: dan-gpt-460014
 
+3. Deploy to Firebase:
+   ```bash
+   firebase deploy
+   ```
+
+## 📁 Project Structure
 ```
 RepoClone/
-├── root-intelligence-enforcer.js  # Main intelligence system
-├── package.json                   # Root configuration
-├── README.md                      # This file
-├── INTELLIGENCE.md               # System self-awareness
-├── CORE/                         # Core intelligence files
-├── TEMPLATES/                    # Project templates (future)
-├── DOCS/                         # Documentation
-└── INTELLIGENCE/                 # Backend logic (archived)
-    └── RepoCloneMeta/
-        └── backend-logic/         # Archived systems
+├── dashboard-server.js      # Main dashboard server
+├── database-manager.js      # Firebase/GCS integration
+├── gcs-manager.js          # Google Cloud Storage manager
+├── github-repo-manager.js  # GitHub repository manager
+├── interactive-dashboard.html # Dashboard UI
+├── public/                 # Firebase hosting files
+├── backups/               # GCS backup storage
+└── INTELLIGENCE/         # Intelligence system modules
 ```
 
-## Core Principles
+## 🔄 API Endpoints
+- `GET /api/dashboard` - Get dashboard data
+- `GET /api/activity` - Get activity log
+- `POST /api/activity` - Log activity
+- `GET /api/metrics` - Get system metrics
+- `POST /api/metrics` - Update metrics
+- `GET /api/github` - Get GitHub info
 
-- **Separation of Concerns**: Backend logic stays in `INTELLIGENCE/RepoCloneMeta/backend-logic/`
-- **Root Intelligence**: Root level contains only intelligence files and project templates
-- **Self-Awareness**: System monitors and enforces its own structure
-- **Clean Organization**: No mixing of frontend and backend code
+## 🎯 Features
+- ✅ Real-time dashboard
+- ✅ Firebase Firestore integration
+- ✅ GCS file storage and backups
+- ✅ GitHub repository management
+- ✅ Activity logging and monitoring
+- ✅ System metrics tracking
+- ✅ Modern UI/UX design
 
-## System Status
+## 🔐 Security
+- Firebase Authentication
+- GCS IAM permissions
+- GitHub token-based access
+- Environment variable protection
 
-The intelligence system continuously monitors:
+## 📈 Monitoring
+- Real-time activity feed
+- System health metrics
+- Repository health scoring
+- Storage usage monitoring
 
-- ✅ **Self-Awareness**: Knows its identity and purpose
-- ✅ **Structure Validation**: Ensures proper file organization
-- ✅ **Rule Enforcement**: Prevents structure violations
-- ✅ **Health Monitoring**: Tracks system status
+## 🚀 Deployment
+The system is designed to be deployed on Firebase Hosting with automatic scaling and CDN distribution.
 
-## Commands
+## 📞 Support
+For issues and questions, please create an issue in the GitHub repository.
 
-- `npm start` - Run root intelligence operations
-- `npm run validate` - Validate project structure
-- `npm run enforce` - Enforce structure rules
-- `npm run status` - Check system status
-
-## Next Steps
-
-Once the root-level intelligence is fully working, we'll add:
-
-1. **Template Deployment** - Deploy project templates
-2. **Project Creation** - Create new projects from templates
-3. **Advanced Features** - Additional intelligence capabilities
-
-## Development
-
-This is a **root-level intelligence system** focused on:
-- Self-awareness and structure validation
-- Clean separation of concerns
-- Proper project organization
-- System health monitoring
-
-The goal is to get this core intelligence working perfectly before adding template deployment functionality.
+---
+*Powered by RepoClone Intelligence System*

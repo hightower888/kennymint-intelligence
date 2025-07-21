@@ -1,16 +1,20 @@
 /**
- * Database Manager for Dan-AI-Mate Intelligence Dashboard
- * Integrates Firebase Firestore and GitHub for real-time data storage
+ * Database Manager for RepoClone Intelligence Dashboard
+ * Integrates Firebase Firestore, GCS, and GitHub for real-time data storage
  */
 
 require('dotenv').config();
 const admin = require('firebase-admin');
 const { Octokit } = require('@octokit/rest');
+const GCSManager = require('./gcs-manager');
+const GitHubRepoManager = require('./github-repo-manager');
 
 class DatabaseManager {
   constructor() {
     this.initializeFirebase();
     this.initializeGitHub();
+    this.gcsManager = new GCSManager();
+    this.githubRepoManager = new GitHubRepoManager();
     this.activityLog = [];
     this.systemMetrics = {};
     this.goals = [];
@@ -25,12 +29,8 @@ class DatabaseManager {
       // Initialize Firebase Admin SDK
       if (!admin.apps.length) {
         admin.initializeApp({
-          credential: admin.credential.cert({
-            projectId: process.env.FIREBASE_PROJECT_ID || 'dan-ai-mate-intelligence',
-            clientEmail: process.env.FIREBASE_CLIENT_EMAIL,
-            privateKey: process.env.FIREBASE_PRIVATE_KEY?.replace(/\\n/g, '\n')
-          }),
-          databaseURL: `https://${process.env.FIREBASE_PROJECT_ID || 'dan-ai-mate-intelligence'}.firebaseio.com`
+          credential: admin.credential.applicationDefault(),
+          projectId: process.env.FIREBASE_PROJECT_ID || 'dan-gpt-460014'
         });
       }
       
@@ -296,11 +296,13 @@ ${JSON.stringify(activity.metadata, null, 2)}
    * Get dashboard data
    */
   async getDashboardData() {
-    const [activityLog, systemMetrics, goalsRules, githubInfo] = await Promise.all([
+    const [activityLog, systemMetrics, goalsRules, githubInfo, gcsInfo, githubHealth] = await Promise.all([
       this.getActivityLog(20),
       this.getSystemMetrics(),
       this.getGoalsAndRules(),
-      this.getGitHubInfo()
+      this.getGitHubInfo(),
+      this.gcsManager.getBucketInfo(),
+      this.githubRepoManager.getRepositoryHealth()
     ]);
 
     return {
@@ -309,8 +311,81 @@ ${JSON.stringify(activity.metadata, null, 2)}
       goals: goalsRules.goals || [],
       rules: goalsRules.rules || [],
       githubInfo,
+      gcsInfo,
+      githubHealth,
       lastUpdated: new Date().toISOString()
     };
+  }
+
+  /**
+   * Create backup of all data
+   */
+  async createBackup(backupName = null) {
+    try {
+      const backupData = {
+        activityLog: await this.getActivityLog(1000),
+        systemMetrics: await this.getSystemMetrics(),
+        goalsAndRules: await this.getGoalsAndRules(),
+        timestamp: new Date().toISOString(),
+        version: '1.0.0'
+      };
+
+      const result = await this.gcsManager.createBackup(backupName);
+      if (result) {
+        await this.logActivity({
+          type: 'backup_created',
+          message: `Backup created: ${backupName || 'auto-backup'}`,
+          status: 'completed',
+          metadata: { backupUrl: result.url }
+        });
+      }
+
+      return result;
+    } catch (error) {
+      console.error('❌ Failed to create backup:', error.message);
+      return null;
+    }
+  }
+
+  /**
+   * Restore backup from GCS
+   */
+  async restoreBackup(backupName) {
+    try {
+      const backupData = await this.gcsManager.restoreBackup(backupName);
+      if (!backupData) {
+        return null;
+      }
+
+      // Restore data to Firestore
+      if (this.db && backupData.data) {
+        if (backupData.data.activityLog) {
+          for (const activity of backupData.data.activityLog) {
+            await this.db.collection('activity_log').doc(activity.id).set(activity);
+          }
+        }
+
+        if (backupData.data.systemMetrics) {
+          await this.db.collection('system_metrics').doc('current').set(backupData.data.systemMetrics);
+        }
+
+        if (backupData.data.goalsAndRules) {
+          await this.db.collection('goals_and_rules').doc('current').set(backupData.data.goalsAndRules);
+        }
+      }
+
+      await this.logActivity({
+        type: 'backup_restored',
+        message: `Backup restored: ${backupName}`,
+        status: 'completed',
+        metadata: { backupName }
+      });
+
+      return backupData;
+    } catch (error) {
+      console.error('❌ Failed to restore backup:', error.message);
+      return null;
+    }
   }
 
   /**

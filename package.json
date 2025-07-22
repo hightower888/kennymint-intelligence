@@ -1,7 +1,7 @@
 {
-  "name": "repoclone",
+  "name": "kennymint",
   "version": "1.0.0",
-  "description": "RepoClone - Root-Level Intelligence System",
+  "description": "Kennymint - Root-Level Intelligence System",
   "main": "root-intelligence-enforcer.js",
   "scripts": {
     "start": "node index.js",
@@ -9,8 +9,21 @@
     "monitor": "node ai-monitor.js",
     "dashboard": "node CORE/dashboard-server.js",
     "cleanup": "node TOOLS/cleanup-root-structure.js",
-    "setup": "node TOOLS/setup-repoclone-firebase.js",
-    "store": "node TOOLS/store-project-data.js"
+    "setup": "node TOOLS/setup-kennymint-firebase.js",
+    "setup-kennymint": "node TOOLS/setup-kennymint-firebase.js",
+    "test-kennymint": "node TOOLS/kennymint-data-manager.js",
+    "store": "node TOOLS/store-project-data.js",
+    "intelligence": "node INTELLIGENCE/start-kennymint-intelligence.js",
+    "intelligence-coordinator": "node INTELLIGENCE/kennymint-intelligence-coordinator.js",
+    "intelligence-dashboard": "node INTELLIGENCE/kennymint-monitoring-dashboard.js",
+    "intelligence-projects": "node INTELLIGENCE/kennymint-project-manager.js",
+    "intelligence-advanced-ai": "node INTELLIGENCE/kennymint-advanced-ai-integration.js",
+    "intelligence-self-improving": "node INTELLIGENCE/kennymint-self-improving-integration.js",
+    "intelligence-backend-systems": "node INTELLIGENCE/kennymint-backend-systems-integration.js",
+    "intelligence-ai-systems": "node INTELLIGENCE/kennymint-ai-systems-integration.js",
+    "intelligence-complete-backend": "node INTELLIGENCE/kennymint-complete-backend-integration.js",
+    "intelligence-firestore": "node INTELLIGENCE/kennymint-firestore-connector.js",
+    "intelligence-standards": "node INTELLIGENCE/kennymint-elite-coding-standards.js"
   },
   "keywords": [
     "intelligence",
@@ -18,14 +31,14 @@
     "template",
     "deployment"
   ],
-  "author": "RepoClone Intelligence",
+  "author": "Kennymint Intelligence",
   "license": "MIT",
   "dependencies": {
     "@google-cloud/storage": "^6.12.0",
     "@octokit/rest": "^19.0.13",
     "chalk": "^4.1.2",
     "dotenv": "^16.6.1",
-    "express": "^4.18.2",
+    "express": "^4.21.2",
     "firebase-admin": "^11.11.1"
   }
 }

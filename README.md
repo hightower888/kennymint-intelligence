@@ -1,10 +1,10 @@
-# RepoClone Intelligence System
+# Kennymint Intelligence System
 
 ## 🧠 Overview
-RepoClone is a comprehensive intelligence system that integrates Firebase, Google Cloud Storage (GCS), and GitHub to provide a complete project management and deployment solution.
+Kennymint is a comprehensive intelligence system that integrates Firebase, Google Cloud Storage (GCS), and GitHub to provide a complete project management and deployment solution.
 
 ## 🚀 Project Details
-- **Project Name**: repoclone
+- **Project Name**: kennymint
 - **Project ID**: dan-gpt-460014
 - **Project Number**: 130600555571
 
@@ -32,8 +32,8 @@ RepoClone is a comprehensive intelligence system that integrates Firebase, Googl
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/danielyoung/RepoClone.git
-   cd RepoClone
+   git clone https://github.com/danielyoung/kennymint.git
+   cd kennymint
    ```
 
 2. Install dependencies:
@@ -70,7 +70,7 @@ RepoClone is a comprehensive intelligence system that integrates Firebase, Googl
 
 ## 📁 Project Structure
 ```
-RepoClone/
+Kennymint/
 ├── dashboard-server.js      # Main dashboard server
 ├── database-manager.js      # Firebase/GCS integration
 ├── gcs-manager.js          # Google Cloud Storage manager
@@ -117,4 +117,4 @@ The system is designed to be deployed on Firebase Hosting with automatic scaling
 For issues and questions, please create an issue in the GitHub repository.
 
 ---
-*Powered by RepoClone Intelligence System*
+*Powered by Kennymint Intelligence System*

@@ -1,7 +1,7 @@
-# RepoClone Intelligence System
+# Kennymint Intelligence System
 
 ## System Identity
-RepoClone is a **root-level intelligence system** that maintains and enforces clean project structure with self-awareness.
+Kennymint is a **root-level intelligence system** that maintains and enforces clean project structure with self-awareness.
 
 ## Core Principles
 - **Root-Level Intelligence**: All intelligence systems operate at the root level

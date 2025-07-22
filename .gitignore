@@ -94,3 +94,4 @@ out/
 # Test files
 test-*.js
 temp-*.js
+kennymint-service-account.json
